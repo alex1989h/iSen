@@ -1,0 +1,21 @@
+--cpu=Cortex-M4.fp
+".\obj\startup_stm32f4xx.o"
+".\obj\ti_lib.o"
+".\obj\usart.o"
+".\obj\retarget.o"
+".\obj\ti_board_io.o"
+".\obj\tft.o"
+".\obj\ti_board_adc.o"
+".\obj\stm32f4xx_it.o"
+".\obj\main.o"
+".\obj\system_stm32f4xx.o"
+".\obj\stm32f4xx_gpio.o"
+".\obj\stm32f4xx_rcc.o"
+".\obj\stm32f4xx_usart.o"
+".\obj\misc.o"
+".\obj\stm32f4xx_adc.o"
+".\obj\stm32f4xx_dma.o"
+--strict --scatter ".\Obj\Anwendung.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\Anwendung.map" -o .\Obj\Anwendung.axf
