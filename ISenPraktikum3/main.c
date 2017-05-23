@@ -22,6 +22,9 @@
 #include "stm32f4xx.h"
 #include "stm32f4xx_gpio.h"
 #include "stm32f4xx_rcc.h"
+//I2C
+#include "isen_i2c.h"
+#include "isen_stm32f4xx_i2c.h"
 
 
 /* Private typedef -----------------------------------------------------------*/
