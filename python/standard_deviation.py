@@ -19,7 +19,7 @@ def compute_standard_deviation(data,size):
     # Die Varianz berechnen
     for j in range (i,size+i):
       variance = variance + quadrat(data[j] - average)
-    variance = variance/(size-1)
+    variance = variance/(size)
     # Noch die Wurzel ziehen
     result[i] = sqrt(variance)
   return result
